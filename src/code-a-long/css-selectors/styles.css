@@ -1,0 +1,25 @@
+.first {
+  background-color: crimson;
+  height: 100px;
+  width: 100px;
+  /* margin: 10px 20px 40px 100px; */
+  padding: 89px;
+  border: 14px solid pink;
+}
+.column {
+  height: 100%;
+  width: 100%;
+  border: 1px solid palevioletred;
+}
+.item {
+  height: 60px;
+  margin: 10px;
+  background-color: green;
+}
+.row {
+  border: 1px solid goldenrod;
+}
+.row .item {
+  display: inline-block;
+  width: 100px;
+}
