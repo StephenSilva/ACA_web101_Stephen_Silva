@@ -1,17 +1,50 @@
-.main-container {
-  height: 100%;
-  width: 100%;
-  border: 1px solid red;
+ h1 {
+  color: black;
+  background: rgb(224, 221, 221);
+  width: 100% ;
+  margin: 1%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
 }
-.blog-container {
-  height: 80px;
-  width: 30%;
-  background-color: gray;
-  margin: 0 auto;
+
+body {
+ 
 }
-h1 {
-  text-align: center;
+
+main {
+  width: 70%;
+  margin: 1% auto;
 }
-p {
-  text-align: center;
+
+article {
+  margin: 4% auto;
+  width: 60%;
+  background: white;
+  border: solid 2px;
+  padding: 4px;
+}
+
+article > a > h3 {
+  font-size: 25;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+article:hover {
+  background: rgb(224, 221, 221);
+}
+
+article:hover > a > h3{
+  color: white;
+}
+article:hover > h3 {
+  color: white;
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
+
+date {
+margin: 1%;
+background-color: rgb(224, 221, 221);
 }
