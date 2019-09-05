@@ -1,0 +1,63 @@
+.profile-pic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 4%;
+  border-radius: 50%;
+  width: 150px;
+}
+.header {
+  position: absolute;
+  left: 15%
+}
+.title {
+  position: absolute;
+  left: 15%;
+  top: 6%;
+}
+contact > ul {
+  background-color: grey;
+  position: absolute;
+  top: 10%;
+  right: 15%;
+}
+.profile > p {
+ background-color: lightgrey;
+ position: absolute;
+ top: 17%;
+ left: 15%;
+}
+.skills {
+  position: absolute;
+  right: 15%;
+  top: 35%;
+  width: 400px;
+}
+.achievements {
+  position: absolute;
+  top: 62%;
+  right: 15%;
+  width: 400px;
+
+}
+.interests {
+  position: absolute;
+  right: 15%;
+  top: 97%;
+  width: 400px;
+}
+
+.experience{
+  width: 500px;
+  position: absolute;
+  left: 15%;
+  top: 35%;
+}
+.top-line{
+  background-color: black;
+  height: 1.5px;
+  width: 72%;
+  position: relative;
+  top: 11.5%;
+}
