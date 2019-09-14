@@ -15,8 +15,13 @@ main{
   font-family: 'Archivo Black', sans-serif;
   font-size: 40px;
   text-align: center;
-
 }
+
+img {
+  display: flex
+}
+
+
 main > h1 {
   padding: 22%;
 }
@@ -66,3 +71,30 @@ article {
   font-family: 'Archivo Black', sans-serif;
 }
 
+@media (max-width:800px) {
+  body{
+    width: auto;
+  }
+  main {
+    width:100%;
+    height: auto;
+    background-image: url(./imgs/space.jpg)
+  }
+  h1 {
+    display: flex;
+    justify-content: center
+  }
+  section {
+    display: block;
+    height: 120%
+  }
+  article {
+    font-size: 18px;
+    padding-top: 3%;
+    height: 200px;
+   
+  }
+  li {
+    font-size: 16px
+  }
+}
