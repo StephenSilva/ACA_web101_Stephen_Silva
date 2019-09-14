@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 850px;
+  margin: 0 auto;
+}
+
+main{
+  height: 450px;
+  background-image: url(./imgs/space.jpg);
+  color: white;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 40px;
+  text-align: center;
+
+}
+main > h1 {
+  padding: 22%;
+}
+
+section {
+  display: flex;
+  height: 324px;
+  margin-top: 3%;
+  justify-content: space-between;
+  background-color: lightgray;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 12%;
+}
+
+li {
+  margin-top: 2%;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14px;
+  color: rgb(82, 80, 80)
+}
+
+.name {
+  width: 90%;
+  height: 9%
+}
+
+
+.send-button {
+  color: white;
+  background-color: grey;
+  height: 12%;
+  width: 32%;
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 15px
+  
+}
+
+article {
+  width: 270px;
+  height: 299px;
+  margin-top: 3%;
+  margin-left: 4%;
+  background-color: lightgray;
+  font-family: 'Archivo Black', sans-serif;
+}
+
