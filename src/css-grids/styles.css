@@ -190,3 +190,205 @@ body {
   margin-top: 110px;
   font-size: 12px;
 }
+
+
+/*---------T A B L E T--------- */
+
+
+
+
+@media only screen and (max-width: 768px) {
+  
+  .trend {
+    margin-top: 5%;
+    margin-left: 84px;
+    grid-column: 2/8;
+    font-size: 15px;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  .trend2 {
+    margin-top: -20px;
+   padding: 10px;
+   grid-column: 1/8;
+   grid-row: 2/3;
+   font-size: 55px;
+   font-style: bold;
+  }
+
+  .trend3 {
+    margin-top: 140px;
+    grid-row: 7/8;
+    grid-column: 2/3;
+  }
+
+  .items-select {
+    grid-column: 6/9;
+    grid-row: 5/8;
+    margin-right: 40px;
+    margin-top: 110px;
+    font-size: 12px;
+  }
+
+  .journal {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-column: 2/3;
+    grid-row: 7/11;
+    background-color: white;
+  }
+  
+  .journal1 {
+    grid-column: 1/3;
+    margin-top: 55px;
+    margin-left: 10px;
+  }
+  
+  .journal2 {
+    grid-column: 2/5;
+    grid-row: 2/4;
+    font-size: 13px;
+    width: 110px;
+    margin-top: 10px;
+    margin-left: -21px;
+  }
+  
+  .journal3 {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    margin-top: -20px;
+    margin-left: 6px;
+    font-size: 60px;
+  }
+}
+
+
+
+
+/*----------M O B I L E----------- */
+
+
+
+
+
+@media only screen and (max-width: 520px){
+  .trending {
+    height: 416px;
+    color: white;
+    font-size: 24px;
+    grid-column: 6/11;
+    grid-row: 5/10;
+    background: rgba(128, 0, 128, 0.356);
+  }
+  
+  .trend {
+    margin-top: 5%;
+    margin-left: 5px;
+    grid-column: 2/8;
+    font-size: 12px;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  .trend2 {
+    margin-top: -20px;
+    padding: 10px;
+    grid-column: 1/8;
+    grid-row: 2/3;
+    font-size: 55px;
+    font-style: bold;
+  }
+
+  .trend3 {
+    margin-top: 30px;
+    grid-row: 5/8;
+    grid-column: 2/3;
+  }
+
+  .journal {
+    display: grid;
+    height: 256px;
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-column: 2/5;
+    grid-row: 7/10;
+    background-color: white;
+  }
+
+  .journal1 {
+    grid-column: 1/3;
+    margin-top: 10px;
+    margin-left: 30px;
+  }
+  
+  .journal2 {
+    grid-column: 2/5;
+    grid-row: 2/4;
+    font-size: 13px;
+    width: 110px;
+    margin-top: -27px;
+    margin-left: -10px;
+  }
+  
+  .journal3 {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    margin-top: -20px;
+    margin-left: 28px;
+    font-size: 60px;
+  }
+
+
+
+  .sidebar {
+    height: 696px;
+    grid-column: 1/2;
+    grid-row: 1/10;
+    padding: 20px;
+    display: grid;
+    grid-template-rows: repeat(24, auto);
+    background-color: rgb(220,66,63);
+  }
+  .menu {
+    width: 19px;
+    height: 19px;
+    margin-left: -6px;
+    margin-top: 310px;
+  }
+  .search {
+    width: 19px;
+    height: 19px;
+    margin-top: 200px;
+    margin-left: -9px;
+  }
+  .main-menu {
+    margin-top: -480px;
+    margin-left: -6px;
+    width: 10px;
+    height: 10px;
+  }
+
+
+  .shop {
+    height: 70px;
+    margin-top: 0px;
+    grid-column: 4/5;
+    grid-row: 6/8;
+    background-color: rgb(21,65,175);
+  }
+  
+  .shop1 {
+    margin-left: 6px;
+    margin-top: 14px;
+    font-size: 13px;
+    color: white;
+  }
+
+  .items-select {
+    grid-column: 7/9;
+    grid-row: 5/8;
+    margin-right: 40px;
+    margin-top: -70px;
+    font-size: 12px;
+  }
+}
