@@ -1,4 +1,4 @@
-.profile-pic{
+.profile-pic {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -48,13 +48,13 @@ contact > ul {
   width: 400px;
 }
 
-.experience{
+.experience {
   width: 500px;
   position: absolute;
   left: 15%;
   top: 35%;
 }
-.top-line{
+.top-line {
   background-color: black;
   height: 1.5px;
   width: 72%;
