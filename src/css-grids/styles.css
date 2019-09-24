@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url(./imgs/shoes.jpg);
+  background-image: url('./imgs/shoes.jpg');
   background-size: 100%
 }
 
