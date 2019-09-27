@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Heebo', sans-serif;
+}
+.UI1 {
+  width: 780px;
+  padding: 50px;
+}
+
+.UI-1 ul {
+  display: flex;
+  border-top: 4px solid rgb(82,181,171);
+  border-bottom: 1px solid rgb(221,221,221);
+}
+.UI-1 ul li {
+  list-style-type: none;
+  width: 50%;
+  text-align: center;
+  padding: 25px;
+  color: rgb(102,102,102);
+  font-family: 'Heebo', sans-serif;
+}
+.UI-1 .hotels {
+  color: black;
+  border-bottom: 3px solid rgb(82,180,171);
+}
+.home img {
+  width: 16;
+}
+.hotels img {
+  width: 16
+}
+.flights img {
+  width: 16;
+}
+.relax img {
+  width: 16;
+}
+
+.UI-1 ul li:hover{
+  background-color: rgb(249,249,249);
+  }
+
+
+  /*-----UI 2-----*/
+
+  .UI2 {
+    width: 780px;
+    padding: 50px;
+  }
+
+  .UI-2 {
+    background-color: rgb(83,188,189);
+    width: 780px;
+    height: 120px;
+  }
+
+  .UI-2 .upper p.revenue {
+    color: white;
+    font-size: 25px;
+  }
+
+  .UI-2 .upper p.label {
+    color: rgb(165,240,242);
+    font-size: 15px;
+    font-weight: bold;
+  }
+
+  .UI-2 .upper {
+    padding: 16px;
+  }
+
+  .UI-2 .upper p,
+  .UI-2 .lower p {
+    margin-bottom: 0;
+    padding-left: 32px;
+  }
+  .UI-2 .lower {
+    background-color: rgb(78,178,180);
+    padding: 8px 16px;
+  }
+  .UI-2 .lower p {
+    font-size: 12px;
+    color: white;
+  }
+  .UI-2 .upper p,
+  .UI-2 .lower p {
+    text-shadow: 0 1px 2px gray;
+  }
+
+
+  /*----UI 3----*/
+
+  .UI3 {
+    width: 780px;
+    padding: 50px;
+  }
+  .UI-3 {
+    background: rgb(235, 232, 232);
+    padding: 40px 30px
+  }
+
+  /*----UI 4----*/
+
+  .UI4 {
+    width: 780px;
+    padding: 50px;
+  }
+  .UI4 .button:hover {
+    background-image: linear-gradient(rgb(62,153,199),rgb(40,116,197));
+  }
+  .UI4 .button2:hover {
+    background-image: linear-gradient(rgb(198,158,53),rgb(192,101,37))
+  }
+  .UI4 .button {
+    background-image: linear-gradient(rgb(79,190,249),rgb(49,140,247));
+  }
+  .UI4 .button2 {
+    margin-left: 9px;
+    background-image: linear-gradient(rgb(248,201,69),rgb(240,126,49))
+  }
+  .UI4 .button,
+  .UI4 .button2{
+    text-shadow: 0 1px 1px gray;
+    border-radius: 6px;
+    padding: 11px 25px 11px 25px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+  }
+
+
+  /*---UI 5----*/
+   
+  .UI5 {
+    width: 780px;
+    padding: 50px;
+  }
+
+  .UI5 .container {
+    background-color: rgb(241,241,241);
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .UI-5 .button {
+
+  }
+  .UI-5 .button {
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgb(204,204,204);
+    padding: 13px 40px;
+    border-radius: 100px;
+    font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+  }
+  .UI-5 .button:hover {
+    background-color: rgb(204,204,204);
+    cursor: pointer;
+  }
+
+  
+  /*----UI 6----*/
+
+  .UI6 {
+    width: 780px;
+    padding: 50px;
+  }
+  .UI-6 .container {
+    background-color: rgb(241,241,241);
+    height: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .UI-6 .container .button {
+    color: white;
+    background-color: rgb(101,117,222);
+
+  }
+  .UI-6 .container .button2 {
+    margin-left: 10px;
+    color: rgb(101,117,222);
+    background-color: white;
+
+  }
+
+  .UI-6 .container .button,
+  .UI-6 .container .button2 {
+    display: inline-flex;
+    font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+    text-decoration: none;
+    padding: 10px 30px;
+    border: transparent;
+    border-radius: 5px;
+    box-shadow: 0 7px 14px rgba(50,50,93,.1), 0 3px 6px rgba(0,0,0,.08);
+     
+  }
+
+  .UI-6 .container .button:hover {
+    transform: translateY(-2px);
+    transition: all .28s;
+    background-color: rgb(131,152,255)
+
+  }
+  .UI-6 .container .button2:hover {
+    transform: translateY(-2px);
+    transition: all .28s;
+    color: rgb(131,152,255);
+
+  }
+
+
+  /*----UI 7----*/
+
+
+  .UI7 {
+    width: 780px;
+    padding: 50px;
+  }
+
+  .UI-7 .container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(241,241,241);
+    height: 300;
+  }
+
+  .UI-7 .container p {
+    font-family: 'Segoe UI', 'Open Sans', 'Roboto', sans-serif;
+    line-height: 1.6;
+    padding: 30;
+  }
+
+  .UI-7 .container .list {
+    margin-top: -40;
+    margin-left: 50;
+    margin-right: 110;
+    list-style-type: none;
+  }
+  .UI-7 .container .list li{
+    margin-bottom: 20;
+  }
+
+  .UI-7 .container .list img {
+    margin-right: 19;
+    width: 17;
+  }
+
+
+  /*---UI 8----*/
+
+
+  .UI8 {
+    width: 780px;
+    padding: 50px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
