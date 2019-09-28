@@ -37,6 +37,7 @@ header {
   margin: 10;
   width: auto;
   height: 200;
+  border-radius: 10px;
 }
 
 .img-button {
@@ -45,6 +46,7 @@ header {
 }
 .img-button:hover {
   background-color:white;
+  margin: 2
 }
 
 .p1 {
