@@ -1,3 +1,7 @@
+
+
+
+@media only screen and (min-width: 450px) {
 * {
   padding: 0;
   margin: 0;
@@ -9,6 +13,7 @@ body{
   font-family: helvetica;
   background-color: black;
 }
+
 header h1 {
   display: flex;
   justify-content: center;
@@ -27,47 +32,80 @@ header {
   justify-content: center;
   padding: 20;
   grid-column: 1/11;
-  grid-row: 2/11;
+  grid-row: 3/5;
 }
 
 .project {
   pointer-events: none;
-  background-color: white;
-  border:1px solid white;
-  margin: 10;
-  width: auto;
-  height: 200;
   border-radius: 10px;
 }
 
 .img-button {
-  background-color: rgba(255, 255, 255, 0);
-  border-radius: 10px
+  border: 5px solid white;
+  border-radius: 10px;
+  background-size: 100%;
+  width: 150;
+  height: 100;
+  margin: 10;
 }
 .img-button:hover {
   background-color:white;
-  margin: 2
+  margin-top:-3px;
+  transition: margin .5s;
 }
 
-.p1 {
+.iframe {
+  width: 100%;
+  height: 1200px;
+  grid-column: 1/11;
+  grid-row: 6/10;
+  background-color: white
 }
-.p2 {
+
+
+.nasa {
+  background-image: url(./imgs/nasa.png);
+
 }
-.p3 {
+.blog {
+  background-image: url(./imgs/blog.png);
+
 }
-.p4 {
+.grids {
+  background-image: url(./imgs/grids.png);
+
 }
-.p5 {
+.hair {
+  background-image: url(./imgs/hair.png);
+
 }
-.p6 {
+.mediaq {
+  background-image: url(./imgs/mediaq.png);
+
 }
-.p7 {
+.ui-details {
+  background-image: url(./imgs/ui.png);
+
 }
+.resume {
+  background-image: url(./imgs/resume.png);
+
+}
+
+.video {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 350;
+}
+
+
 
 
 
 footer {
   grid-column: 1/11;
+  grid-row: 10/11;
   background-color: white;
   height:70;
 }
@@ -76,4 +114,119 @@ footer {
   justify-content: center;
   padding: 20;
 }
+}
 
+
+
+
+
+/*------------Mobile----------*/
+
+
+@media only screen and (max-width: 450px) {
+  * {
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    display: grid;
+    grid-template-columns: repeat(10, 10%);
+    grid-template-rows: repeat(10,auto);
+    font-family: helvetica;
+    background-color: black;
+  }
+  
+  header h1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    text-align: center;
+  }
+  header {
+    grid-column: 1/11;
+    grid-row: 1/2;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+  }
+  .projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5;
+    grid-column: 1/11;
+    grid-row: 2/6;
+  }
+  
+  .project {
+    pointer-events: none;
+    border-radius: 10px;
+  }
+  
+  .img-button {
+    border: 5px solid white;
+    border-radius: 10px;
+    background-size: 100%;
+    width: 150;
+    height: 75;
+    margin: 5;
+  }
+  .img-button:hover {
+    background-color:white;
+    margin-top:-3px;
+    transition: margin .5s;
+  }
+  
+  .iframe {
+    width: 100%;
+    height: 1200px;
+    grid-column: 1/11;
+    grid-row: 6/10;
+    background-color: white
+  }
+  
+  
+  .nasa {
+    background-image: url(./imgs/nasa.png);
+  
+  }
+  .blog {
+    background-image: url(./imgs/blog.png);
+  
+  }
+  .grids {
+    background-image: url(./imgs/grids.png);
+  
+  }
+  .hair {
+    background-image: url(./imgs/hair.png);
+  
+  }
+  .mediaq {
+    background-image: url(./imgs/mediaq.png);
+  
+  }
+  .ui-details {
+    background-image: url(./imgs/ui.png);
+  
+  }
+  .resume {
+    background-image: url(./imgs/resume.png);
+  
+  }
+  
+  
+  
+  
+  
+  footer {
+    grid-column: 1/11;
+    grid-row: 10/11;
+    background-color: white;
+    height:70;
+  }
+  .date {
+    display: flex;
+    justify-content: center;
+    padding: 20;
+  }
+}
