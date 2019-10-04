@@ -1,0 +1,61 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.transition-squares {
+  border: 2px solid black;
+  margin: 10px;
+  width: 530px;
+  height: 530px;
+  padding: 10px;
+  box-shadow: 0px 0px 5px gray;
+}
+.transition-squares:hover .square{
+  border-radius: 30px;
+  transition-duration: 3s;
+  transform: rotate(720deg);    margin-left: 420px;
+  cursor: pointer;
+}
+
+.square {
+  font-size: 12px;
+  position: relative;
+  width: 60px;
+  height: 60px;
+  margin-bottom: 13px;
+  background-color: white;
+}
+.square p {
+  text-align: center;
+  padding-top: 20px
+}
+
+#ease.square {
+  border: 1px solid red;
+  transition: all 4s ease;
+}
+#ease-in.square {
+  border: 1px solid greenyellow;
+  transition: all 4s ease-in;
+}
+#ease-out.square {
+  border: 1px solid blue;
+  transition: all 4s ease-out;
+}
+#ease-in-out.square {
+  border: 1px solid rgb(236, 236, 9);
+  transition: all 4s ease-in-out;
+}
+#linear.square {
+  border: 1px solid pink;
+  transition: all 4s linear;
+}
+#custom.square {
+  border: 1px solid turquoise;
+  transition: all 4s cubic-bezier(0.77, 0, 0.175, 1)
+}
+#awesome.square {
+  border: 1px dotted black;
+  transition: all 4s cubic-bezier(0.6, -0.28, 0.735, 0.045);
+}
