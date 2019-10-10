@@ -1,0 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  display: grid;
+  grid-template-columns: repeat(10,10%);
+  grid-template-rows: repeat(10,10%);
+}
