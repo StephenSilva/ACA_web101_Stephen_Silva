@@ -5,7 +5,7 @@
 body {
   display: grid;
   grid-template-columns: repeat(10,10%);
-  grid-template-rows: repeat(20,80px);
+  grid-template-rows: repeat(30,80px);
   font-family: 'Montserrat', sans-serif;
   background-image: url(./images/food.jpg);
   background-size: 100%;
@@ -168,4 +168,40 @@ button {
   margin-left: -15px;
   grid-column: 7/11;
   width: 100%;
+}
+
+.more-info {
+  grid-row: 18;
+  grid-column: 1/11;
+  padding: 50;
+}
+.more-info .more {
+  display: flex;
+}
+.more-info p {
+  font-size: 13;
+}
+.more img {
+  width: 120px;
+  height: 100px;
+}
+.toll, .own {
+  flex-direction: column;
+}
+.toll {
+  
+  margin-top: 80;
+}
+.more-info .toll img {
+  margin-top: 
+}
+.more button {
+  background-color: red;
+  border: none;
+  width: 120;
+  padding: 10;
+  border-radius: 4px;
+  color: white;
+  font-size: 13;
+  margin-top: 15;
 }
