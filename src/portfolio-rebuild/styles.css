@@ -230,6 +230,9 @@ footer {
     background-image: url(./imgs/resume.png);
   
   }
+  .checkpoint {
+    background-image: url(./imgs/hair.png);
+  }
 
   .form {
     display: flex;
