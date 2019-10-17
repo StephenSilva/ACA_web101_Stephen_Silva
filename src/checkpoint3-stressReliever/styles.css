@@ -1,0 +1,103 @@
+.cookie {
+border: none;
+background-color: transparent;
+cursor: pointer;
+}
+.cookie:focus {
+  outline: none;
+}
+
+
+body {
+  color: white;
+  background-color: gray;
+  background-image: url(./images/candy1.png);
+  background-size: 100px;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.instruct {
+  background-color: rgba(8, 8, 8, 0.575);
+  border-radius: 10px;
+  color: white;
+  padding: 10;
+  width: 300;
+  text-align: center;
+}
+
+.instruct instruct {
+  font-size: 18;
+  font-family: 'Modak', cursive;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Fredoka One', cursive;
+}
+
+.stuff, .click-cost, .btn{
+  filter: drop-shadow(5px 5px 5px #222);
+  font-family: 'Modak', cursive;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Fredoka One', cursive;
+
+}
+
+.stuff {
+  background-color:rgba(0, 0, 0, 0.514);
+  border-radius: 10px;
+  padding: 10;
+}
+.click-cost {
+  margin-top: 3px;
+  background-color: black;
+  border-radius: 10px;
+  padding: 3;
+}
+.btn {
+  margin-top: 10px;
+  font-family: 'Modak', cursive;
+  font-family: 'Anton', sans-serif;
+  font-family: 'Fredoka One', cursive;
+}
+.cost {
+ color: rgb(129, 207, 12);
+}
+
+.one{
+  padding: 15
+}
+
+
+.navbar-brand {
+  filter: drop-shadow(5px 5px 5px #222);
+  font-family: 'Modak', cursive;
+  font-size: 35px;
+  background-color:pink;
+  border-radius: 10px;
+  box-shadow: 10px 5px;
+
+}
+
+
+.cookie img {
+  width: 300;
+  filter: drop-shadow(5px 5px 5px #222);
+  animation: rotation 45s infinite linear;
+
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+.cookie img:hover {
+  transform: rotate(10deg);
+}
