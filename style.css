@@ -1,100 +1,32 @@
-body {
-    font-family: Impact, fantasy;
-    background-image: url(https://hostbangla.com/wp-content/uploads/2016/12/website-design-background.png);
-    background-repeat: repeat;
-    background-size: 1600px 900px;
-    width: 100vw;
-    height: 100vh;
-  }
- 
-  .logo {
-    width: 100px;
-    height: 100px;
-    margin: 3% 10%;
-  }
- 
-  header {
-    display: grid;
-    grid-template-columns: 40% 60%;
-    width: 100%;
-  }
- 
-  main {
-    height: auto;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 30% 40% 30%;
-  }
- 
-  nav > a {
-    margin: 2% 1% 1%;
-    height: 10%;
-    width: 15%;
-    color: white;
-    font-family: Impact, fantasy	;
-    font-size: 20px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 20px;
-    text-align: center;
-    border: 2px solid white;
-  }
- 
-  .has-border {
-    border-radius: 10px;
-    border: 1px solid rgb(255, 255, 255);
-    background: none;
-    padding: 20px;
-  }
- 
-  nav {
-    display: flex;
-    justify-content: flex-end;
-    width: 100%;
-    padding-right: 2%;
-  }
- 
-  #profile-pic {
-    width: 260px;
-    height: 260px;
-    border-radius: 50%;
-    margin: 1% auto;
-    grid-column: 2/3;
-  }
- 
-  h1 {
-    color:white;
-    grid-column: 2/3;
-    margin: 3% auto;
-    border-bottom: 0px solid #1940A9;;
-  }
- 
-  h2 {
-    grid-column: 2/3;
-    margin: 3% auto;
-    font-style: italic;
-  }
- 
-  .small-text {
-    grid-column: 2/3;
-    color: white;
-    font-size: 10px;
-    margin: 3% auto;
-  }
- 
-  button {
-    grid-column: 2/3;
-    margin: 3% auto;
-    width: 70%;
-    height: 15%;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    border-radius: 25px;
-    background: transparent;
-    padding: 20px;
-    padding-bottom: 5%;
-    text-align: center;
-    color: white;
-    letter-spacing: 16px;
-    font-style: italic;
-  }
+.collapse {
+  background-color: transparent;
+}
+
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100;
+}
+
+.profile-main{
+  width: 250;
+  color: white;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0,0,0,.6);
+  background-color: rgba(0, 0, 0, 0.562);
+  border-radius: 20px;
+  padding: 10px;
+  font-family: 'Oswald', sans-serif;
+}
+
+.profile .btn {
+  align-items: center;
+  height: 50;
+  width: 200px;
+  margin-top: 10px;
+}
+.avi {
+  width: 200;
+  border-radius: 100%;
+}
