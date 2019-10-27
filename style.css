@@ -20,11 +20,9 @@
   font-family: 'Oswald', sans-serif;
 }
 
-.profile .btn {
-  align-items: center;
-  height: 50;
-  width: 200px;
-  margin-top: 10px;
+.btn {
+  margin-top: 5;
+  width: 200;
 }
 .avi {
   width: 200;
